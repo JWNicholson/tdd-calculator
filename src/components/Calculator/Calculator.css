@@ -1,0 +1,17 @@
+.calculator-container {
+    background-color: grey;
+    height:50%;
+    width: 33%;
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .calculator-container {
+      background-color: var(--calculator-background-color);
+      height: 100%;
+      width: 100%;
+      background-color: red;
+    }
+   
+  }
