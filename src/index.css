@@ -1,11 +1,27 @@
-
-.App {
-  font-family: 'Orbitron', sans-serif;
-}
-
 /* reset */
 body, div, p {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* app variables */
+:root {
+  --calculator-background-color: #686868;
+  --main-font: 'Orbitron', sans-serif;
+  --calculator-height: 72%;
+  --calculator-width: 36%;
+}
+
+@media screen and (max-width: 1024px) {
+  :root {
+    /* calculator dimensions */
+    --calculator-height: 100%;
+    --calculator-width: 100%;
+  }
+}
+
+
+
+
+
