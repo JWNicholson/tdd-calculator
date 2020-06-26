@@ -7,7 +7,7 @@ body, div, p {
 
 /* app variables */
 :root {
-  --calculator-background-color: #686868;
+  --calculator-background-color: #18112a;
   --main-font: 'Orbitron', sans-serif;
   --calculator-height: 72%;
   --calculator-width: 36%;
